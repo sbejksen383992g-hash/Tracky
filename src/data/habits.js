@@ -1,0 +1,68 @@
+const habits = [
+  {
+    id: 1,
+    title: "Drink 4L Water",
+    target: "4 Litres",
+    xp: 10,
+    sundaySkip: false,
+    isDefault: true,
+  },
+  {
+    id: 2,
+    title: "Communication & Storytelling",
+    target: "30 Minutes",
+    xp: 30,
+    sundaySkip: false,
+    isDefault: true,
+  },
+  {
+    id: 3,
+    title: "Deep Learning",
+    target: "2 Hours",
+    xp: 100,
+    sundaySkip: false,
+    isDefault: true,
+  },
+  {
+    id: 4,
+    title: "Practical Learning",
+    target: "1 Hour",
+    xp: 80,
+    sundaySkip: false,
+    isDefault: true,
+  },
+  {
+    id: 5,
+    title: "Read 10 Pages",
+    target: "10 Pages",
+    xp: 20,
+    sundaySkip: false,
+    isDefault: true,
+  },
+  {
+    id: 6,
+    title: "Exercise",
+    target: "Workout",
+    xp: 60,
+    sundaySkip: true,
+    isDefault: true,
+  },
+  {
+    id: 7,
+    title: "Skin Care",
+    target: "Morning / Night",
+    xp: 10,
+    sundaySkip: false,
+    isDefault: true,
+  },
+  {
+    id: 8,
+    title: "Daily Review",
+    target: "Minimum 50 Words",
+    xp: 40,
+    sundaySkip: false,
+    isDefault: true,
+  },
+];
+
+export default habits;
